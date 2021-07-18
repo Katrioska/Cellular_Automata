@@ -1,5 +1,5 @@
 Entity:
-    - Health, Strength, Maturity, MaxChilds, Lifetime, Current Lifetime values:
+    - Health, Strength, Maturity, MaxChilds, Lifetime, Current Lifetime, ColonyID values:
         - Health, Strength, Maturity, MaxChilds and Lifetime defined by parent (Or by default values if it's the initial cell)
         - For any step, cells move randomly and Current Lifetime value increases by 1
             - If Current_Lifetime >= Lifetime then cell dies
@@ -7,5 +7,5 @@ Entity:
                 - For every child:
                     - Mutation probability of 10% based of Parent Values.
 
-    - If entity encounter with other entity of diferent colony.
+    - If entity encounter with other entity of different colony.
         - Starts combat (Cell with highest Strength will win)
