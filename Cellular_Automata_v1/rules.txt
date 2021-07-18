@@ -1,5 +1,5 @@
 Entity:
-    - Health, Strength, Maturity, MaxChilds, Lifetime, Current Lifetime, ColonyID values:
+    - Strength, Maturity, MaxChilds, Lifetime, Current Lifetime, ColonyID values:
         - Health, Strength, Maturity, MaxChilds and Lifetime defined by parent (Or by default values if it's the initial cell)
         - For any step, cells move randomly and Current Lifetime value increases by 1
             - If Current_Lifetime >= Lifetime then cell dies
