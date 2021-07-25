@@ -1,1 +1,4 @@
-from default_values import *
+from gui import *
+
+gui = GUI()
+gui.run()
