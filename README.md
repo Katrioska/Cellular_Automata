@@ -5,7 +5,6 @@ I started doing these tests inspired by ["Predator and Prey"](https://github.com
 ## Test 1:
 Rules:
 - Each cell has these values inherited from parent's cell or by default values if it's initial cell:
-  - Health
   - Strength
   - Maturity
   - Maxchilds
