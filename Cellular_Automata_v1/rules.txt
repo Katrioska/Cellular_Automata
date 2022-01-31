@@ -6,6 +6,7 @@ Entity:
             - If Current_Lifetime >= Maturity then cells reproduces:
                 - For every child:
                     - Mutation probability of 10% based of Parent Values.
+            - Only for test reasons: If two cells of the same colony collides, one of them dies.
 
     - If entity encounter with other entity of different colony.
         - Starts combat (Cell with highest Strength will win)

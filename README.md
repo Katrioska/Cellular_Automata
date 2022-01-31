@@ -19,5 +19,6 @@ Rules:
     - If reproduces, Childs values increases by 1.
     - If Childs >= Maxchilds then cells cannot reproduce anymore.
     - For each child, parent's values has a mutation of 10% (Except ColonyID)
+    - Only for test reasons: If two cells of the same colony collides, one of them dies.
   - If cell encounter with other cell of different colony.
     - Combat starts, cell with highest strength will win)

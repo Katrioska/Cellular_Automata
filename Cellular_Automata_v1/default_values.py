@@ -8,7 +8,7 @@ MUTATION_int = 0.1
 CELL_SIZE = 5
 SPEED = 4
 
-### Delay for each step in Miliseconds
+### Delay for each step in seconds
 DELAY = 0.01
 
 wX = 800

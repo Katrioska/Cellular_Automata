@@ -8,6 +8,9 @@ class Cell:
         self.lifetime = lifetime        #Parent Inherited
         self.colonyID = ColonyID        #Parent Inherited
 
+        self.IsColliding = False
+        self.oldPOS = [0, 0]
+
         self.current_lifetime = 0
         self.childs = 0
 
@@ -76,6 +79,8 @@ class Cell:
     def process(self, colonyList):
         self.current_lifetime += 1
         if not self.current_lifetime >= self.lifetime:
+            self.oldPOS[0] = self.rect.x
+            self.oldPOS[1] = self.rect.y
             self.random_move()
             if self.current_lifetime >= self.maturity and self.childs <= round(self.maxchilds):
                 if choice([True, False]):
